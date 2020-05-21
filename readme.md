@@ -11,7 +11,6 @@ The Note Taker application is aimed for the user to capture notes and store thes
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 
