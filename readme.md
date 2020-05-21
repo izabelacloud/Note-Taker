@@ -6,7 +6,7 @@ The Note Taker application is aimed for the user to capture notes and store thes
 
 ## Table of Contents
 
-* [Installation](#installation)
+* [Deployed Application](#deployed-application)
 * [User Story](#user-story)
 * [Usage](#usage)
 * [License](#license)
@@ -15,9 +15,9 @@ The Note Taker application is aimed for the user to capture notes and store thes
 * [Questions](#questions)
 
 
-## Installation 
+## Deployed Application 
 
-TBD
+[Note-Taker](https://izabelacloud-note-taker.herokuapp.com/)
 
 ## User Story 
 
@@ -51,12 +51,6 @@ This project is licensed under the MIT.
 
 Izabela Petrovicova
 
-## Tests
-
-Tests are being run by npm Jest framework.
-
-The video on how to test this application is included here: 
-[Walk-through Video](TBD)
 
 ## Questions
 
