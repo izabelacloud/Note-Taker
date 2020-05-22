@@ -18,7 +18,7 @@ The Note Taker application is aimed for the user to capture notes and store thes
 
 [Note-Taker](https://izabelacloud-note-taker.herokuapp.com/)
 
-[Image](https://github.com/izabelacloud/Note-Taker/blob/master/public/assets/images/Note%20Taker.png?raw=true)
+![Image](https://github.com/izabelacloud/Note-Taker/blob/master/public/assets/images/Note%20Taker.png?raw=true)
 
 ## User Story 
 
