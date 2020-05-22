@@ -1,19 +1,19 @@
 {
   "notes": [
     {
-      "title": "test1",
-      "text": "test1!",
+      "title": "Finish the Server JS hw",
+      "text": "Finish homework",
       "id": "0"
     },
     {
-      "title": "sf",
-      "text": "dg",
-      "id": "2"
+      "title": "Start the SQL chapter",
+      "text": "Install the SQL first",
+      "id": "1"
     },
     {
-      "title": "dgdg",
-      "text": "dgdg",
-      "id": "3"
+      "title": "Plan the trip to Bali",
+      "text": "Details will go here",
+      "id": "2"
     }
   ]
 }
