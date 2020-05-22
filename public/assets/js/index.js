@@ -15,14 +15,114 @@ var getNotes = function() {
   });
 };
 
+// var getNotes = function() {
+//   const title = $noteTitle.querySelector('[name="note-title"]').value;
+//   const text = $noteText.querySelector('[name="note-textarea"]').value;
+
+//   const noteObject = { title, text, id };
+
+//   return $.ajax({
+//     url: "/api/notes",
+//     method: "GET"
+//     dataType: "json",
+//     data: JSON.stringify(noteObject)
+//     contentType: "application/json",
+//     success: function (data) {
+//         alert(data.d);
+//     },
+//     error: function (d) {
+//         alert("error");
+//     }
+//   })
+//   .then(postResponse => {
+//     console.log(postResponse);
+//     alert('Thank you for adding a note!'); 
+//   });
+
+
+// };
+
+
+
+// const getNotes = (formData = {}) => {
+//   let queryUrl = '/api/notes?';
+
+//   Object.entries(formData).forEach(([key, value]) => {
+//     queryUrl += `${key}=${value}&`;
+  
+//   fetch(queryUrl)
+//   .then (response => {
+//     if(!response.ok) {
+//       return alert ('Error: ' + response.statusText);
+//     }
+//     return response.json(); 
+//   })
+//   .then(noteData => {
+//     console.log(noteData);
+//     renderNoteList(noteData); 
+
+
+//   });
+// });
+//   console.log(queryUrl);
+
+// };
+
+
+
 // A function for saving a note to the db
 var saveNote = function(note) {
   return $.ajax({
     url: "/api/notes",
     data: note,
     method: "POST"
+
+    
   });
+// };
+
+// var saveNote = function(note) {
+//   const title = $noteTitle.val();
+//   const text = $noteText.val();
+//   // const id = "5";
+
+//   const noteObject = { title, text, id };
+//   console.log(noteObject);
+
+//   // return $.post("/api/notes", noteObject)
+//   //         .then((stuff) => {
+//   //           console.log(stuff);
+//   //         })
+
+//          return $.post("/api/notes", noteObject)
+//           .then(function (data) {
+//             console.log("add.html", data);
+//             alert("A new note has been added!");
+//           });
+/*
+  return $.ajax({
+
+    url: "/api/notes",
+    method: "POST",
+    dataType: "json",
+    // type: "POST",
+    data: noteObject, //new Note
+    contentType: "application/json",
+    success: function (response) {
+        alert("Note was addded");
+
+    },
+    error: function (err) {
+        alert("There was an error");
+    }
+    
+  })*/
+
 };
+
+
+
+
 
 // BONUS A function for deleting a note from the db
 var deleteNote = function(id) {
@@ -61,6 +161,10 @@ var handleNoteSave = function() {
     renderActiveNote();
   });
 };
+
+
+
+
 
 // BONUS Delete the clicked note
 var handleNoteDelete = function(event) {
